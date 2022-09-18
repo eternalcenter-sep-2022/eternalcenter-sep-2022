@@ -1,0 +1,38 @@
+中文：
+永恒中心网站克隆后的注意事项
+
+1. 使用 MariaDB 数据库，在数据库里将网站连接数据库的用户名设置成 ec，用户的密码设置成 eternalcenter，库名设置成 ec，ec 用户拥有 ec 库的全部权限
+2. 在本地手动添加将 eternalcenter.com 域名解析到您的新网站 IP 地址上的记录，不使用公共 DNS 解析 eternalcenter.com 域名，之后可以使用 https://eternalcenter.com 网址登录您的新网站
+3. 网站的后台登陆网址是：https://eternalcenter.com/login，网站的后台登陆用户是：Mingyu Zhu，网站的后台登陆密码是：eternalcenter
+4. 登陆后请第一时间修改密码并将网站域名修改成您的，之后您就可以通过自己的域名登录您的新网站了
+5. 需要将网站中指向 eternalcenter.com 的链接和按钮修改成指向您域名对应的链接
+6. 需要将网站中其他相关链接修改成您的
+7. 以上操作都完成后，记得在本地手动删除将 eternalcenter.com 域名解析到您的新网站 IP 地址的记录
+
+或者：
+
+1. 使用 MariaDB 数据库，在数据库里将网站连接数据库的用户名设置成 ec，用户的密码设置成 eternalcenter，库名设置成 ec，ec 用户拥有 ec 库的全部权限
+2. 在 WordPress 官网上搜索并实施 WordPress 网站变更网址的方法
+3. 网站的后台登陆网址是：https://<your domain name>/login，网站的后台登陆用户是：Mingyu Zhu，网站的后台登陆密码是：eternalcenter
+4. 登陆后请第一时间修改密码
+
+
+
+
+English:
+Points for attention after cloning eternal Center website
+
+1. Use the MariaDB database. In the database, set the user name of the website connection database to ec, the user’s password to eternalcenter, and the database name to ec. The ec user has all the permissions of the ec database
+2. Manually add the record that resolves the eternalcenter.com domain name to the IP address of your new website locally without using public DNS to resolve the eternalcenter.com domain name, then can use https://eternalcenter.com website address to access your new website
+3. The background login website of the website is: https://eternalcenter.com/login, the background login user of the website is Mingyu Zhu, and the background login password of the website is eternalcenter
+4. After logging in, please change your password and change the website domain name to yours at the first time, and then you can log in to your new website through your own domain name
+5. You need to modify the links and buttons in the website to eternalcenter.com to the corresponding links to your domain name
+6. Other relevant links in the website need to be modified to your
+7. After the above operations are completed, remember to manually delete the record of resolving the domain name of eternalcenter.com to your new website IP address locally
+
+Or:
+
+1. Use the MariaDB database. In the database, set the user name of the website connection database to ec, the user’s password to eternalcenter, and the database name to ec. The ec user has all the permissions of the ec database
+2. Search and implement the method of changing the website address of WordPress website on the official WordPress website
+3. The background login URL of the website is https://<your domain name>/login, the background login user of the website is Mingyu Zhu, and the background login password of the website is eternalcenter
+4. Please change your password at the first time after logging in
